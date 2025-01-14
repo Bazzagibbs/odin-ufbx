@@ -8,7 +8,7 @@ import "core:time"
 import "vendor:glfw"
 import gl "vendor:OpenGL"
 
-import fbx "../ufbx"
+import fbx ".."
 
 load_mesh :: proc() -> (indices: []u32, positions: [][3]f32, normals: [][3]f32, uvs: [][2]f32) {
         // Load the .fbx file

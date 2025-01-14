@@ -1,7 +1,6 @@
 # `ufbx` Bindings for Odin
 
-- `/ufbx` contains all you need to get going, simply copy it into your project and import 
-- `/deps` contains the C source files used to build `ufbx.lib` and their license
+- `/src` contains the C source files used to build `ufbx.lib` and their license
 - `/example` contains a simple example of using the API from Odin
 
 ## Running the Example
@@ -9,6 +8,8 @@
 From this directory, simply run `odin run example`. You should see a spinning Suzanne head.
 
 ## Compiling `ufbx.c`
+
+A build script is provided for Windows using clang. Run it from a Developer Command Prompt.
 
 On Windows, `ufbx.lib` is produced with:
 
